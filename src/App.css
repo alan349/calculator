@@ -31,16 +31,22 @@
 label {
   padding-top: 10px;
   display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
 
 input {
   margin-bottom: 24px;
+  min-width: 200px;
+  text-align: center;
 }
+
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
